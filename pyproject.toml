@@ -1,0 +1,19 @@
+[project]
+name = "dspy-test-agent"
+version = "0.1.0"
+description = "Create a ReAct Agent using the DSPy framework."
+authors = [
+    {name = "aserrador",email = "alejandro.ayala@onecluster.org"}
+]
+license = {text = "GNU GPL-3.0 License"}
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "dspy (>=3.4.0,<4.0.0)",
+    "pydantic (>=2.13.5,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
